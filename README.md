@@ -118,4 +118,63 @@ O aplicativo utiliza uma combinação estratégica de três padrões de navegaç
 
 ## 6. Estrutura de Diretórios
 
-![Estrutura de Diretórios](media/image3.png)
+
+## 7. Códigos-Fonte Principais
+
+### 7.1 Telas Principais
+![Arquivos Principais](media/image2.png)
+
+**Arquivos principais desenvolvidos:**
+- `index.tsx` (Login) - Autenticação do usuário
+- `index.tsx` (Home) - Dashboard principal
+- `learning-tracks.tsx` - Catálogo de cursos
+- `progress.tsx` - Acompanhamento de progresso
+- `profile.tsx` - Gestão de perfil
+
+### 7.2 Configurações de Navegação
+![Configurações de Navegação](media/image6.png)
+
+**Arquivos de configuração:**
+- `_layout.tsx` (Root) - Configuração geral
+- `_layout.tsx` (Drawer) - Menu lateral
+- `_layout.tsx` (Tabs) - Abas inferiores
+
+## 8. Justificativas de Design
+
+### 8.1 Arquitetura de Navegação Híbrida
+A combinação de Stack, Drawer e Tab Navigation proporciona:
+- **Experiência nativa** com padrões familiares ao usuário
+- **Acesso rápido** a todas as funcionalidades principais
+- **Organização lógica** do fluxo de conteúdo
+- **Flexibilidade** para expansão futura
+
+### 8.2 Design System Consistente
+**Cores principais:**
+- Primária: `#2E8B57` (Verde sustentável)
+- Background: `#F8FAFC` (Cinza claro)
+- Texto: `#1F2937` (Cinza escuro)
+
+### 8.3 Padrões de UX Implementados
+- **Search Bar Flutuante**: Máxima visibilidade e acesso rápido
+- **Filter Chips**: Navegação visual intuitiva por categorias
+- **Card-based Layout**: Consistência visual entre seções
+- **Empty States**: Feedback claro quando não há dados
+- **Progress Indicators**: Motivação visual para continuidade
+
+### 8.4 Integração com Princípios de Usabilidade
+- **Consistência**: Elementos visuais padronizados
+- **Eficiência**: Acesso rápido às funcionalidades principais
+- **Feedback**: Confirmações visuais para todas as ações
+- **Acessibilidade**: Cores contrastantes e tamanhos adequados
+
+## 9. Conclusão
+
+O SkillUpPlus 2030+ demonstra com sucesso a aplicação dos conceitos de desenvolvimento mobile com React Native, atendendo aos requisitos de navegação híbrida, formulários validados e uso de hooks. A aplicação oferece uma solução prática para o desafio da requalificação profissional, alinhando-se com os Objetivos de Desenvolvimento Sustentável da ONU.
+
+A arquitetura implementada permite fácil expansão e manutenção, enquanto a interface focada na experiência do usuário garante usabilidade e engajamento. O projeto serve como base sólida para futuras evoluções e integrações com APIs e funcionalidades avançadas.
+
+---
+
+**Desenvolvido por:** Rafael Jorge Del Padre - RM552765  
+**Data de Entrega:** [Data]  
+**Tecnologias:** React Native, Expo, TypeScript, React Navigation
